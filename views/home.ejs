@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <style>
+        body {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<body>
+    <h1>Book Store</h1>
+    <h2> ADD BOOK</h2>
+    <div>
+        <form method="POST" action="/api/books">
+          <label>Enter Book Name</label>
+          <input type="text" name="bookName" placeholder="panchtantra" />
+          <label>Enter Author Name</label>
+          <input type="text" name="author" placeholder="vishnu sharma" />
+          <button type="submit">ADD</button>
+        </form>
+      </div>
+     <h2> Retrieve All books</h2>
+     <div>
+        <form method="GET" action="/api/books">
+          <button type="submit">Get All Books</button>
+        </form>
+      </div>
+      <h2> Modify book</h2>
+      <h4> This can be tested using POSTMAN.</h4>
+      <h4>Proper retrieval and updation is done with error handling.</h4>
+      </div>
+</body>
+</html>
