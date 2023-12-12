@@ -15,5 +15,5 @@
    http://localhost:8000/api/users
 5. Update Book: used PUT  HTTP Header to implement this rest api, using POSTMAN we can update the details of any book with correct identification , proper handling of errors such as non-existent book is taken care.
     http://localhost:8000/api/users/:id
-# important
-for updation using id , use postman or any api platform.
+# Important
+For updation using id ==> use postman or any api platform.
